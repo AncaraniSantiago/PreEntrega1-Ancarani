@@ -17,7 +17,6 @@ while(option!="EXIT"){
     else{
         alert("La opción ingresada no es correcta")
         optiOn()
-
     }
 }
 function optiOn(){
@@ -35,7 +34,6 @@ function preProv() {
     while(precList<0||isNaN(precList)){
         precList=Number(prompt("Ingrese el precio nuevamente, no puede ser menor a 0 ni letras"))
     }
-    
 }
 function calcDtos() {
     preGan=Number((gan1/100)*precList+precList)
