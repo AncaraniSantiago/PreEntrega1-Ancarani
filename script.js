@@ -20,7 +20,7 @@ while(option!="EXIT"){
     }
 }
 function optiOn(){
-    option=prompt("Configure su calculadora primero ingresando las opciones en número\n\nIngrese 1 - Configurar precio de Proveedor\nIngrese 2 - Configurar Ganancia\nIngrese 3 - Ver precio de venta con sus descuentos\n\nPuls ESC o escriba EXIT para salir").toUpperCase()
+    option=prompt("Configure su calculadora primero ingresando las opciones en números\n\n1 - Configurar precio de Proveedor\n2 - Configurar Ganancia\n3 - Ver precio de venta con sus descuentos\n\nPuls ESC o escriba EXIT para salir").toUpperCase()
 }
 function calcGan() {
 gan1=Number(prompt("Ingrese el porcentaje de ganancia a percibir"))
